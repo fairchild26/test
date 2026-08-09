@@ -1,1 +1,17 @@
-helloGTest/build
+# helloGTest/build
+
+# 忽略所有 .abc 文件
+*.abc
+
+# 03.abc 除外（取消忽略）
+!03.abc
+
+# 仅忽略根目录下的 temp 文件夹，子目录中的 temp 不受影响
+/temp
+
+# 忽略 build/ 目录下的所有文件
+build/
+
+# 忽略 doc/ 目录下的 .txt 文件，但不递归到子目录
+# 即忽略 doc/notes.txt，但保留 doc/server/arch.txt
+fea2/*.txt
