@@ -12,6 +12,5 @@
 # 忽略 build/ 目录下的所有文件
 build/
 
-# 忽略 doc/ 目录下的 .txt 文件，但不递归到子目录
-# 即忽略 doc/notes.txt，但保留 doc/server/arch.txt
+# 忽略 fea2/ 目录下的 .txt 文件，但不递归到子目录
 fea2/*.txt
